@@ -1,93 +1,81 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio Lusy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="aset/css/gaya.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- judul -->
+    <div class="container">
+        <h1 class="text-center title mb-3">Portofolio Organisasi</h1>
+    </div>
+    <!-- table -->
+    <div class="container">
+        <table class="table table-striped">
+            <tr class="text-center title">
+                <th>No</th>
+                <th>Waktu</th>
+                <th>Organisasi</th>
+                <th>Jabatan</th>
+                <th>Kepanitiaan</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="text-center">2017-2020</td>
+                <td class="text-center">Karya Ilmiah Remaja SMAN 1 Tarik</td>
+                <td class="text-center">Anggota</td>
+                <td>
+                    <ul>
+                        <li>Koordinator Papper Penelitian Kulit Telur</li>
+                        <li>Anggota Kebersihan Taman</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="text-center">2021-Sekarang</td>
+                <td class="text-center">UKM Linux and Open Source</td>
+                <td class="text-center">Anggota Divisi Humas</td>
+                <td>
+                    <ul>
+                        <li>Sekretaris Event Laos Arena</li>
+                        <li>Ketua Panitia Event Pelatihan Linux</li>
+                        <li>Anggota Sie Acara Pertemuan Rtin Laos</li>
+                        <li>Anggota Sie Humas Event Pelatihan GIT</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td class="text-center">2022-Sekarang</td>
+                <td class="text-center">Laboratorium Geographic Information System</td>
+                <td class="text-center">Badan Pengurus Harian, Sekretaris</td>
+                <td>
+                    <ul>
+                        <li>Asisten Pengajar Mata Kuliah Kecerdasan Buatan</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+         </table>
+     </div>  
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-
-<body>
-    <h1 class="judul">Portofolio</h1>
-
-    <p class="tag">FORMULIR PORTOFOLIO</p>
-    <form class="form">
-        <p>Nama:</p>
-        <input class="inputname" type="text" name="nama" placeholder="masukkan nama">
-        <p>Tentang:</p>
-        <input class="inputtentang" type="text" tentang="Tentang" placeholder="masukkan tentang" style="height: 100px ">
-        <p>Keahlian:</p>
-        <p class="inputkeahlian">
-            <input type="checkbox" keahlian="Keahlian" id="Microsoft office">
-            <label for="Microsoft office">Microsoft office</label>
-            <input type="checkbox" keahlian="Keahlian" id="Enterprise Architect">
-            <label for="Enterprise Architect">Enterprise Architect</label>
-            <input type="checkbox" keahlian="Keahlian" id="Figma">
-            <label for="Figma">Figma</label>
-            <input type="checkbox" keahlian="Keahlian" id="HTML">
-            <label for="HTML">HTML</label>
-            <input type="checkbox" keahlian="Keahlian" id="CSS">
-            <label for="CSS">CSS</label>
-            <input type="checkbox" keahlian="Keahlian" id="Javascript">
-            <label for="Javascript">Javascript</label>
-        </p>
-        <p>Pendidikan sekarang:</p>
-        <input class="inputpendidikan" type="text" pendidikan="Pendidikan" placeholder="pendidikan sekarang">
-        <p>Pengalaman:</p>
-        <input class="inputpengalaman" type="text" pengalaman="Pengalaman" placeholder="masukkan pengalaman">
-        <div>
-            <p>Upload Foto:</p>
-            <input class="inputfoto" type="file" class="form-control" id="inputGroupFile01">
+    <!-- tombol -->
+    <div class="container">
+        <div class="card text-center">
+            <div class="card-body">
+                <p class="card-text text-secondary">Untuk melihat Biodata saya kembali, Anda dapat</p>
+                <a href="index.html" class="btn btn-danger" style="width: auto;">Klik Disini</a>
+            </div>
         </div>
-        <br></br>
-        <div>
-            <input class="submit" type="submit" value="kirim">
-            <input class="reset" type="reset" value="reset">
-        </div>
-    </form>
-
-
-    <br>
-    <table class="table">
-        <tr class="judul">
-            <th class="a">No</th>
-            <th class="a">Nama</th>
-            <th class="a">Tentang</th>
-            <th class="a">Keahlian</th>
-            <th class="a">Pendidikan Sekarang</th>
-            <th class="a">Pengalaman</th>
-            <th class="z">Foto</th>
-        </tr>
-        <tr class="isi">
-            <td class="b">1</td>
-            <td class="b">Lestaria Lusy Rahmawati</td>
-            <td class="b">Hallo, salam kenal perkenalkan nama saya Lestaria Lusy Rahmawati dari program studi Informatika
-                Universitas Jember.
-                Saya berasal dari Sidoarjo. Salam kenal ya gaiss!!</td>
-            <td class="b">
-                <ul>
-                    <li>Microsoft office</li>
-                    <li>Enterprise Architect </li>
-                    <li>Figma</li>
-                </ul>
-            </td>
-            <td class="b">
-                Universitas Jember
-            </td>
-            <td class="b">
-                Ketua Panitia Pelatihan Linux 2022,
-                Sekretaris Event LAOS Arena 2022,
-                Staff Humas UKM LAOS 22/23,
-                Juara 3 DAQ 2022
-            </td>
-            <td class="y">
-                <img src="lestarialusy.jpg" alt="lestarialusy" width="150" height="165">
-            </td>
-        </tr>
-    </table>
-    </br>
-</body>
-
+    </div>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
 </html>
